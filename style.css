@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background-color: #121618;
+  font-weight: 600;
+}
+.nav-link {
+  margin-left: 17px;
+}
+.social_icon i {
+  padding: 15px;
+}
+.bgcolor {
+  background-color: #262626;
+}
+.menu:focus {
+  border: 1px solid white;
+}
+
+.carousel-item img{
+  height: 800px;
+}
+.carousel-item .image1 {
+  /* background-color: linear-gradient(rgba(0, 0, 0 ,0.7), rgba(0, 0, 0 ,0.7)) !important; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(1.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
+
+.txt_on_img {
+  margin-bottom: 145px;
+}
+
+.txt_on_img h1 {
+  font-family: "Chonburi", Sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.txt_on_img p {
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.online_menu_btn,
+.call_order_btn {
+  border: 1px solid white;
+  font-size: 25px;
+}
+
+.online_menu_btn:hover {
+  background-color: white !important;
+  color: black !important;
+  transition: 0.5s;
+}
+
+.clr_black {
+  background: black;
+}
+
+.clr_red {
+  background: #9f1f1f;
+}
+
+span {
+  margin-left: 20px;
+}
+p {
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+.location_content {
+  font-size: 20px;
+}
+
+.address_content {
+  font-size: 11px;
+}
+
+.time_content {
+  font-size: 15px;
+}
+
+.call_order_btn:hover {
+  background-color: white !important;
+  color: #9f1f1f !important;
+  transition: 0.5s;
+}
+
+.mian_bg {
+  background: #1c1c20;
+}
+.mian_bg .container {
+  padding-bottom: 30px;
+}
+.mian_bg img {
+  width: 350px;
+  height: 200px;
+  margin-top: 30px;
+  opacity: 0.5;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dabe73;
+}
+
+.mian_bg img:hover {
+  opacity: 1;
+  transition: 0.55;
+}
+
+/* .mian_bg h1{
+    position: absolute;
+    color: yellow;
+    top: 166%;
+    left: 11%;
+    padding: 110px 181px 20px 20px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #DABE73;
+} */
+/* padding: 111px 20px 20px 20px;
+border-style: solid;
+border-width: 1px 1px 1px 1px;
+border-color: #DABE73; */
+
+/* .mian_bg h2{
+    position: absolute;
+    top: 21%;
+    left: 10%;
+} */
+
+.our_story {
+  color: #1e1d22;
+  font-family: "Satisfy", Sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.our_story_bg p {
+  font-size: small;
+  font-weight: bold;
+}
+
+/* .our_story .rounded-circle{
+  margin-bottom: -20px;
+} */
+
+.rounded-circle{
+  margin-bottom: -25px;
+}
+.experience_bg {
+  background-image: url("experience.jpg");
+}
+
+.experience {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Satisfy", Sans-serif;
+}
+.best {
+  font-family: "Chonburi", Sans-serif;
+  font-size: 40px;
+}
+.experience_bg .container {
+  padding: 70px 0;
+}
+.experience_bg p {
+  font-size: 14px;
+  margin-left: 0;
+}
+
+.map_bg {
+  background: #0d0d0d;
+}
+.map_bg h2 {
+  font-family: "Satisfy", Sans-serif;
+  font-size: 39px;
+}
+.map_bg .btn {
+  background: black;
+  font-family: "Satisfy", Sans-serif;
+  font-size: 28px;
+}
+.map_bg textarea {
+  border-color: #6b6b6b;
+}
+
+.map_bg textarea:focus {
+  border-color: #252525;
+  box-shadow: none !important;
+}
+.map_bg input {
+  border-color: #6b6b6b;
+}
+.map_bg input:focus {
+  border-color: #252525;
+  box-shadow: none !important;
+}
+
+
+.footer_bg{
+  background-image: url('footer.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.footer_bg p{
+  margin-left: 0;
+  font-size: 15px;
+}
+
+.quick_links{
+  font-size: 25px;
+  margin-top: 100px;
+  font-family: "Satisfy", Sans-serif;
+
+}
+
+.footer_bg .nav-link{
+margin-left: 0;
+margin-top: 10px;
+font-weight: 600;
+}
+
+.contact_us{
+  font-size: 25px;
+  margin-top: 117px;
+  font-family: "Satisfy", Sans-serif;
+}
+
+.third_footer .phone{
+  font-size: 37px;
+    font-weight: 600;
+}
+
+.email{
+  color:rgb(202,50,101) ;
+}
+
+.address{
+font-weight: 600;
+}
+
+.map_bg .col-md-6{
+  overflow: hidden;
+}
+
+.map_bg .row{
+  margin-right: 0;
+}
